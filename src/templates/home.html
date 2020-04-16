@@ -1,0 +1,6 @@
+<form action="{% url 'home' %}" method="post" accept="image/png,image/jpeg,image/jpg" enctype="multipart/form-data">
+    {%csrf_token%}
+    <label for="img">file:</label>
+    <input type="file" name="img" id="img"><br><br>
+    <input type="submit" value="Submit">
+</form>
