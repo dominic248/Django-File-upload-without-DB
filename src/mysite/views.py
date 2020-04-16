@@ -4,10 +4,11 @@ from django.urls import reverse
 from django.core.files.storage import default_storage
 from django.core.files.base import ContentFile
 import time
-
+import os
 
 def return_page(request): 
-	return HttpResponse("Success") 
+    print(os.getenv("SECRET_KEY"))
+    return HttpResponse("Success")
 
 def home_page(request):
     if request.method == 'POST':
