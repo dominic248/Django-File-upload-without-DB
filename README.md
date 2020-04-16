@@ -32,11 +32,6 @@ Linux:
 source env/bin/activate
 ```
 
-## Browse into source folder: 
-```
-cd src
-```
-
 ## Requirements Installation:
 Windows:
 ```
@@ -46,6 +41,11 @@ pip install -r requirements.txt
 Linux:
 ```
 pip3 install -r requirements.txt
+```
+
+## Browse into source folder: 
+```
+cd src
 ```
 
 ## Run project:
